@@ -3,7 +3,7 @@ name: wf3
 on:
   push:
     branches:
-      - tst
+      - b1
 
 jobs:
   build:
