@@ -1,0 +1,17 @@
+name: wf3
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out Repository
+      uses: actions/checkout@v2
+
+    - name: Run a Command
+      run: echo "Hello, GitHub Actions!"
